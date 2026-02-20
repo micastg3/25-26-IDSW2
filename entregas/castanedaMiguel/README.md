@@ -1,4 +1,4 @@
-##Diagrama UML
+## Diagrama UML
 
 
 @startuml
@@ -9,7 +9,7 @@ Mensaje o-- Contexto
 @enduml
 
 
-##Descripcción
+## Descripcción
 
 
 Una conversación necesita interlocutores, los cuales darán o recibirán mensajes, los cuales pueden ser temporales y olvidarse, además de que algunos mensajes pueden no tener interlocutores. Suponiendo esto, Interlocutores y mensajes no son dependientes entre sí.
