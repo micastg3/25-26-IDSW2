@@ -1,13 +1,9 @@
 ## Diagrama UML
 
 
-@startuml
-Interlocutor -- Mensaje
-Mensaje .. Metodo_de_comunicacion
-Interlocutor o-- Metodo_de_comunicacion
-Mensaje o-- Contexto
-@enduml
-
+<p align="center">
+  <img src="https://www.plantuml.com/plantuml/png/SoWkIImgAStDuVBCAqajoibFBYt9BrBGrLNmJSqhJinAvOBI2dfwGA6I_9Jy-9JK-EJytDAypEJ4vCpyF5IT-RgwEDJ1J08hSSu7QgeeoUToICrB0LeF0000" alt="Diagrama UML">
+</p>
 
 ## Descripcción
 
