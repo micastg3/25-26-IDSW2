@@ -6,6 +6,12 @@ class Interlocutor {
         this.nombre = nombre;
         this.mc=mc;
     }
+
+    public PrepararMensaje(Metodo_de_comunicacion mc, Mensaje m, Contexto c){
+        m.setContexto(c);
+        System.out.println("Este mensaje se transmite mediante" + mc.getNombre);
+        return m;
+    }
 }
 
 
@@ -16,8 +22,9 @@ class Mensaje {
         this.contenido=contenido;
         this.contexto=contexto;
     }
-    public void(Metodo_de_comunicacion mc){
-           System.out.println("Este mensaje se transmite mediante" + mc.getNombre);
+
+    public void setContexto(Contexto contexto){
+        this.contexto=contexto;
     }
 }
 
